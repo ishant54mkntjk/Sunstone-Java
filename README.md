@@ -1,2 +1,2 @@
 # Java_Sunstone
-This file is my java practice code file
+This is my java practice code file
