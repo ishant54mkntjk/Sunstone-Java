@@ -4,7 +4,7 @@ public class pattern18 {
     public static void main(String[] args) {
         int n = 7;
         int row =1;
-        int space = n-1;
+        int space = n-4;
         int star =1;
 
         while(row <=n*2-3){

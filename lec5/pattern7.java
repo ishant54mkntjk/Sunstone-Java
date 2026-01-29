@@ -10,7 +10,7 @@ public class pattern7 {
             // Star
             int i = 1;
             while(i <= star){
-                if (row == 1 || row == n || i== 1 || i== n){
+                if (row == 1 || row == n ){
                 System.out.print("* ");
                 }
                 else{

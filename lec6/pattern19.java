@@ -1,47 +1,37 @@
 package lec6;
 
 public class pattern19 {
-     public static void main(String[] args) {
+    public static void main(String[] args) {
         int n = 7;
-        int row = 1;
-        int space = 1;
-        int star = n-3;
+        int row =1;
+        int space = n-3;
+        int star =1;
 
         while(row <=n){
-            
-            // Star
-            int i = 2;
-            while(i <= star){
-                System.out.print("* ");
-                i++;
-            }
             // Space
-            int j = 2;
-            while (j <= space){
+            int i =1;
+            while(i <=space){
+            System.out.print(" * ");
+            i++;
+            }
+            // Star
+            int j =1;
+            while(j <= star){
                 System.out.print("  ");
                 j++;
             }
 
-            // Star
-            int k = 2;
-            while(k <= star){
-                System.out.print("* ");
-                k++;
-             }
-
-        // Next line
-        if (row < n-3){
-            space+=2;
-            star--;
+            if(row <n-3){
+                space--;
+                star+=2;
+            }
+            else{
+                space++;
+                star-=2;
+            }
+            row++;
+            System.out.println();
         }
-        else {
-            space-=2;
-            star++;
-        }
-        row++;
-        System.out.println();
     }
-   
     
-}
 }

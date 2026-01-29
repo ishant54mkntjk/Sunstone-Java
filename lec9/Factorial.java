@@ -2,17 +2,14 @@ package lec9;
 
 public class Factorial {
     public static void main(String[] args) {
-        int a= 0;
-        int b = 1;
+        
+        int fact = 1;
         int n=10;
 
         for(int i = 1; i <=n; i++){
-            System.out.println(a);
-            int c = a+b;
-            a = b;
-            b = c;
+            fact *= 1;
         }
-        System.out.println(a);
+        System.out.println(fact);
     }
     
 }
