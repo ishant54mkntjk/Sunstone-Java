@@ -1,10 +1,10 @@
-package lec6;
+package lec7;
 
-public class pattern19 {
+public class pattern22 {
     public static void main(String[] args) {
-        int n =7;
+        int n =5;
         int row =1;
-        int star =n/2+1;
+        int star =n;
         int space =-1;
         
 
@@ -25,26 +25,24 @@ public class pattern19 {
             // Star
             int k =1;
             while(k <= star){
-                if( row ==1 && k==star || row ==n && k==star){
+                if( row ==1 && k==5){
                     System.out.print("");
                 }
                 else{
                     System.out.print("* ");
                 }
                 k++;
-              }
+            }
 
-              if(row <n/2+1){
-                 star--;
-                 space+=2;
-              }
-              else{
-                 star++;
-                 space-=2;
-              }
-          
+           
            row++;
+           star--;
+           space+=2;
+
            System.out.println();
-        }   
-    }  
+        }
+        
+    }
+    
+
 }
