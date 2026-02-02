@@ -1,6 +1,6 @@
-package lec7;
+package lec4;
 
-public class pattern29 {
+public class pattern27 {
     public static void main(String[] args){
         int n=5;
         int row=1;
@@ -17,18 +17,22 @@ public class pattern29 {
 
             // Star
             int j=1;
-            int val= row;
+            int var= 1;
             while(j<=star){
-                if(j ==1 || j == star){
-                 System.out.print(val+"\t");
+                 System.out.print(var+"\t");
+                if(j<row)
+                    {var++;
                 }
-                else{
-                    System.out.print("0\t");
-                }
-                j++;             
+                else{var--;}
+               
+                j++;
+                
+                
             }
+
             row++;
-            space--;          
+            space--;
+            
             star+=2;
             System.out.println();
         }

@@ -1,10 +1,10 @@
-package lec7;
+package lec4;
 
-public class pattern24 {
+public class pattern26 {
     public static void main(String[] args) {
         int n= 5;
         int row =1;
-        int var =1;
+        
         int space =n-1;
         int star =1;
          
@@ -17,16 +17,17 @@ public class pattern24 {
             }
             // Star
             int j=1;
-            
+            int var =1;
             while(j <= star){
                 System.out.print(var+"\t");
                 j++;
+                var++;
             }
 
             row++;
             star+=2;
             space--;
-            var++;
+            
             System.out.println();
         }
 

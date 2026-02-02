@@ -1,6 +1,6 @@
-package lec7;
+package lec4;
 
-public class pattern32 {
+public class pattern31 {
     public static void main(String[] args){
         int n=5;
         int row=1;
@@ -11,7 +11,7 @@ public class pattern32 {
 
             // Star
             int j=1;
-            int var=1;
+            int var=5;
             while(j<=star){
                 if(row+j-1 == n){
                     System.out.print("*\t");

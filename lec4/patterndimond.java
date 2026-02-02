@@ -1,4 +1,4 @@
-package lec6;
+package lec4;
 
 public class patterndimond {
     public static void main(String[] args){

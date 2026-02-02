@@ -1,4 +1,4 @@
-package lec7;
+package lec4;
 
 public class pattern20 {
     public static void main(String[] args) {
