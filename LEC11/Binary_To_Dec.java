@@ -5,14 +5,16 @@ public class Binary_To_Dec {
         int n= 100111;
         int sum =0;
         int dec =10;
-        int src = 1;
+        
         int mul =1;
         
 
         while(n>0){
             int rem =n%dec;
-            sum = sum+rem*src;
+            sum = sum+rem*mul;
             n = n/dec;
+            mul = mul*2;
+            
 
         }
         System.out.println(sum);
