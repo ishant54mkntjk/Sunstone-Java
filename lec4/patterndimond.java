@@ -2,7 +2,7 @@ package lec4;
 
 public class patterndimond {
     public static void main(String[] args){
-        int n=29;
+        int n=7;
         int row =1;
         int star =n;
         int space =1;
