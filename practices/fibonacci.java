@@ -15,26 +15,26 @@ public class fibonacci {
             
             while(i<=star){
                 if(row ==1 ){
-                    System.out.print(0);
+                    System.out.print("0 ");
                 }
                 else if(row ==2){
-                System.out.print(1);
+                System.out.print("1 ");
                 }
-
+                
                 else if(row>2){
-                    System.out.print(c);
+                    System.out.print(c+" " );
                     a =b;
-                    b=c;
+                b =c;
+                c =a+b;
+
                     
                 }
 
                 i++;
             }
-           
-
             row++;
             star++;
-            c =a+b;
+            
             
             System.out.println();
             
