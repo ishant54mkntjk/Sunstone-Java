@@ -2,11 +2,13 @@
 import java.util.*;
 public class firsttstring{
     public static void main(String[] args) {
+      // String s ="Ishant is a good boy";
+      // System.out.println(s);
       Scanner sc =new Scanner(System.in);
-      String s = sc.next();
+      String s =sc.next();
       System.out.println(s);
-      //  sc.nextLine();
-      String l = sc.nextLine();
+      sc.nextLine();
+      String l=sc.nextLine();
       System.out.println(l);
     }
    }
